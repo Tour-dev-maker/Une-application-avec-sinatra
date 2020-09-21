@@ -1,4 +1,4 @@
-#L'APPLICATION AVEC SINATRA
+#L APPLICATION AVEC SINATRA
 ## Sinatra
     ><strong>Sinatra</strong> est une bibliothèque d applications Web gratuite et à code source ouvert, ainsi qu un langage spécifique à un domaine 1 écrit en Ruby
 
