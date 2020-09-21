@@ -1,16 +1,16 @@
 #L APPLICATION AVEC SINATRA
 ## Sinatra
-    ><strong>Sinatra</strong> est une bibliothèque d applications Web gratuite et à code source ouvert, ainsi qu un langage spécifique à un domaine 1 écrit en Ruby
+    >'Sinatra' est une bibliothèque d applications Web gratuite et à code source ouvert, ainsi qu un langage spécifique à un domaine 1 écrit en Ruby
 
 ## Utilisation
-###1 clonage du dossier
+1 clonage du dossier
 lancer ce commande dans votre terminal 
 ```bash
-git clone
+git clone https://github.com/Tour-dev-maker/Une-application-avec-sinatra/
 ```
-###Lancement de l application
+2 Lancement de l application
 ```bash
-ruby app.rb
+shotgun -p 4567
 ```
 
 ## Contributeurs
