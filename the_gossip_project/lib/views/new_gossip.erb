@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sinatra Project - Créer un potin</title>
+<link rel="stylesheet" type="text/css" href="<%= url("/css/style.css")%>">
+</head>
+  <body>
+    <header>
+    <a href="/"><img src="/images/header.png" alt="Sacré_Hubert" height="100" width="100"></a>
+    <h1>P*tin de Sinatra !</h1>
+    </header>
+    <h2>Référence d'un p*tin</h2>
+    <p>Balance ton p*tin favorit via le formulaire ci-dessous</p>
+    <form action='/gossips/new/' method='POST'>
+      Balance ton blase :  <input class="comminput" type='text' name='gossip_author' required/><br/>
+      Balance ton p*tin : <textarea class="comminput" type='' name='gossip_content'></textarea>
+      <input type='submit'/>
+    </form>
+    <hr>
+    <p class="bouton"><a href="/">Retour accueil</a></p>
+  </body>
+</html>
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Sinatra Project - Editer un p*tin</title>
+<link rel="stylesheet" type="text/css" href="<%= url("/css/style.css")%>">
+</head>
+  <body>
+    <header>
+    <a href="/"><img src="/images/header.png" alt="Sacré_Hubert" height="100" width="100"></a>
+    <h1>P*tin de Sinatra !</h1>
+    </header>
+    <h2>Edite un p*tin !</h2>
+    
+    <p>Modifie le p*tin via le formulaire ci-dessous</p>
+    <form action='/gossips/<%= id.to_i %>/edit/' method='POST'>
+      Edite l'auteur :  <input class="comminput" type='text' name='gossip_edit_author' value="<%= gossip.author%>"/><br/>
+      Edite le p*tin :  <textarea class="comminput"type='' name='gossip_edit_content'><%= gossip.content%></textarea>
+      <input type='submit'/>
+    </form>
+    <hr>
+    <p class="bouton"><a href="/">Retour accueil</a></p>
+  </body>
+</html>
